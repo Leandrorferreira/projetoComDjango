@@ -1,0 +1,98 @@
+body{
+    margin:0;
+}
+
+header{
+    background-color: #2c3e50;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;   
+}
+
+header nav p{
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+header div{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div img{
+    height: 50px;
+    width: 50px;
+}
+
+header div nav{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header div nav a{
+    text-decoration: none;
+    color:black;    
+}
+
+#image {
+    background-image: url('https://spacenews.com/wp-content/uploads/2018/09/swooshchart-879x485.jpg');
+    height: 550px;
+    background-size: cover;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+article p{
+    text-align: center;
+    padding: 5px;
+} 
+
+#conteudo-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteudo-img {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#conteudo-img div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#conteudo-img div img{
+    height: 50px;
+    width: 50px;
+}

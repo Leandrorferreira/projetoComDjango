@@ -1,0 +1,14 @@
+.vscode
+
+#ambiente virtual --não adiciona--
+myenv
+
+#DLL files
+__pycache__
+
+#Pack da distribuição
+.Python
+
+db.sqlite3
+
+.mypy_cache/
